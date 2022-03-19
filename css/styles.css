@@ -1,0 +1,181 @@
+body {
+  margin: 0 ;
+  background-color: skyblue;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD1YdCSbNX5eduuZ0k6g8E4J4FZmSnc1YCPg&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  /* width: 100vw; */
+}
+h1,h2,h3,p,h4,h5 {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+}
+.herf {
+  font-size: 16px;
+  color: white;
+  background-color: red;
+  width: 130px;
+  height: 30px;
+  text-align: center;
+  margin: 20px auto 10px;
+  line-height: 30px;
+  border-radius: 20px;
+}
+.CD {
+  padding: 0;
+}
+.AB {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  height: 50px;
+  background-color: white;
+  border-radius: 40px;
+}
+.AB h3 {
+  width: 70px;
+  height: 50px;
+  font-size: 24px;
+  line-height: 55px;
+  margin-left: 20px;
+  margin-top: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+}
+.AB h2 {
+  font-size: 19px;
+  margin: 0 auto;
+  line-height: 55px;
+}
+.AB img {
+  border-radius: 50%;
+}
+
+.sprint h1 {
+  color: orange;
+  font-size: 20px;
+  text-align: center;
+}
+.sprint {
+  width: 80%;
+  margin: 0 auto 10px;
+  border: 5px solid #cccccc;
+  border-top: none;
+  border-radius: 20px;
+}
+.sprint ul {
+  margin: 0 auto;
+}
+.sprint li {
+  display: flex;
+  background-color: black;
+  border-radius: 30px;
+}
+.sprint h1 {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.sprint h2 {
+  font-size: 18px;
+}
+
+.sprint h3 {
+  color: orange;
+}
+.info {
+  background-color: black;
+  display: flex;
+  border-radius: 20px;
+  margin-bottom: 6px;
+}
+.sprint h2 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  line-height: 40px;
+  border-radius: 30px;
+  padding: 0 8px;
+  font-size: 14px;
+}
+.info h3 {
+ margin-left: 10%;
+ margin-top: 8px;
+}
+.reverse {
+  background-color: black;
+  display: flex;
+  border-radius: 20px;
+  margin-bottom: 6px;
+}
+.reverse h4 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  line-height: 40px;
+  border-radius: 30px;
+  padding: 0 8px;
+  margin: 0 0 0 auto;
+  font-size: 14px;
+}
+.reverse h3 {
+  margin-left: 49%;
+  margin-top: 8px;
+}
+.info h5 {
+  color: orange;
+  margin-left: 10.9%;
+  margin-top: 8px;
+  font-size: 20px;
+}
+.reverse h5 {
+  color: orange;
+  margin-left: 50%;
+  margin-top: 8px;
+  font-size: 20px;
+}
+.rogo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.rogo img {
+  width: 90px;
+  height: 40px;
+}
+
+/* midium screen */
+@media (min-width:600px) {
+  .reverse h3 {
+    margin-left: 47.8%;
+  }
+}
+
+
+/* large screen */
+@media (min-width:800px) {
+  .info h3 {
+    margin-left: 11%;
+  }
+  .reverse h3 {
+    margin-left: 48.5%;
+  }
+  .info h5 {
+    margin-left: 12%;
+  }
+  .reverse h5 {
+    margin-left: 49.5%;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

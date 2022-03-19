@@ -51,7 +51,7 @@ li {
   border-radius: 30px;
 }
 .AB h2 {
-  font-size: 18px;
+  font-size: 13px;
   margin: 0 auto;
   line-height: 55px;
 }
@@ -101,7 +101,7 @@ li {
   line-height: 40px;
   border-radius: 30px;
   padding: 0 8px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .info h3 {
  margin-left: 6%;
@@ -122,7 +122,7 @@ li {
   border-radius: 30px;
   padding: 0 8px;
   margin: 0 0 0 auto;
-  font-size: 14px;
+  font-size: 13px;
 }
 .reverse h3 {
   margin-left: 46.8%;
@@ -159,6 +159,15 @@ li {
   }
   .info h5 {
     margin-left: 8.7%;
+  }
+  .AB h2 {
+    font-size: 20px;
+  }
+  .sprint h2 {
+    font-size: 16px;
+  }
+  .reverse h4 {
+    font-size: 16px;
   }
 }
 

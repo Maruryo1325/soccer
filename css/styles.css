@@ -83,9 +83,6 @@ li {
   padding-top: 20px;
   margin-bottom: 10px;
 }
-.sprint h2 {
-  font-size: 18px;
-}
 
 .sprint h3 {
   color: orange;
@@ -100,7 +97,7 @@ li {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  width: 35%;
+  width: 37%;
   line-height: 40px;
   border-radius: 30px;
   padding: 0 8px;
@@ -120,7 +117,7 @@ li {
   background-color: white;
   display: flex;
   justify-content: space-between;
-  width: 35%;
+  width: 37%;
   line-height: 40px;
   border-radius: 30px;
   padding: 0 8px;

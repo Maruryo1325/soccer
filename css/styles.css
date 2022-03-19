@@ -104,7 +104,7 @@ li {
   font-size: 14px;
 }
 .info h3 {
- margin-left: 10%;
+ margin-left: 6%;
  margin-top: 8px;
 }
 .reverse {
@@ -125,18 +125,18 @@ li {
   font-size: 14px;
 }
 .reverse h3 {
-  margin-left: 49%;
+  margin-left: 46.8%;
   margin-top: 8px;
 }
 .info h5 {
   color: orange;
-  margin-left: 10.9%;
+  margin-left: 7.8%;
   margin-top: 8px;
   font-size: 20px;
 }
 .reverse h5 {
   color: orange;
-  margin-left: 50%;
+  margin-left: 48.8%;
   margin-top: 8px;
   font-size: 20px;
 }
@@ -151,8 +151,14 @@ li {
 
 /* midium screen */
 @media (min-width:600px) {
+  .info h3 {
+    margin-left: 7.8%; 
+  }
   .reverse h3 {
     margin-left: 47.8%;
+  }
+  .info h5 {
+    margin-left: 8.7%;
   }
 }
 
@@ -160,13 +166,13 @@ li {
 /* large screen */
 @media (min-width:800px) {
   .info h3 {
-    margin-left: 11%;
+    margin-left: 9%;
   }
   .reverse h3 {
-    margin-left: 48.5%;
+    margin-left: 48.3%;
   }
   .info h5 {
-    margin-left: 12%;
+    margin-left: 10%;
   }
   .reverse h5 {
     margin-left: 49.5%;
